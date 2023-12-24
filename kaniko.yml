@@ -17,7 +17,7 @@ spec:
           image: gcr.io/kaniko-project/executor:v1.6.0-debug
           imagePullPolicy: Always
           args:
-            - "--context=git:://github.com/hazemhashem881/aya7aga.git"
+            - "--context=git://github.com/hazemhashem881/aya7aga.git"
             - "--destination=hazemhashem100/prod:vlatest"
             - "--dockerfile=dockerfile"
           volumeMounts:
